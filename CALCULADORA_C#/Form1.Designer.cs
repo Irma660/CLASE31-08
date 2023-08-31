@@ -51,9 +51,11 @@
             // 
             // tbDisplay
             // 
+            tbDisplay.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             tbDisplay.Location = new Point(12, 24);
             tbDisplay.Multiline = true;
             tbDisplay.Name = "tbDisplay";
+            tbDisplay.RightToLeft = RightToLeft.Yes;
             tbDisplay.Size = new Size(263, 40);
             tbDisplay.TabIndex = 0;
             tbDisplay.TextChanged += textBox1_TextChanged;
@@ -255,8 +257,6 @@
             btnLimpiar.TabIndex = 18;
             btnLimpiar.Text = "LIMPIAR";
             btnLimpiar.UseVisualStyleBackColor = true;
-            
-
             // 
             // Form1
             // 

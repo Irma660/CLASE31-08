@@ -1,7 +1,13 @@
+using System.Configuration;
+
 namespace CALCULADORA_C_
 {
     public partial class Form1 : Form
     {
+        private double valor1;
+        private double valor2;
+
+        private double resultado;
         public Form1()
         {
             InitializeComponent();
@@ -19,7 +25,7 @@ namespace CALCULADORA_C_
 
         private void button5_Click(object sender, EventArgs e)
         {
-            //número 5
+            //suma
             tbDisplay.Text = tbDisplay.Text + "5";
         }
 
@@ -32,11 +38,22 @@ namespace CALCULADORA_C_
         private void button13_Click(object sender, EventArgs e)
         {
             //signo sumar
+            valor1 = Convert.ToDouble(tbDisplay.Text);
+            tbDisplay.Text = "";
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
             //método igual
+            valor2 = Convert.ToDouble(tbDisplay.Text);
+
+            resultado = valor1 + valor2;
+
+            tbDisplay.Text = resultado.ToString();
+
+
+            
+            
         }
 
         private void button7_Click(object sender, EventArgs e)

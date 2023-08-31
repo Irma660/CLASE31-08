@@ -116,6 +116,7 @@ namespace CALCULADORA_C_
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             //boton limpiar
+            tbDisplay.Text = "";
 
         }
     }

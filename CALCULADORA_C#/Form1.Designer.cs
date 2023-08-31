@@ -29,24 +29,24 @@
         private void InitializeComponent()
         {
             tbDisplay = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
+            btnN8 = new Button();
+            btnN7 = new Button();
+            btnN9 = new Button();
+            btnN4 = new Button();
+            btnN5 = new Button();
+            btnN6 = new Button();
+            btnN1 = new Button();
+            btnN2 = new Button();
+            btnN3 = new Button();
             button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
-            button16 = new Button();
-            button17 = new Button();
-            button18 = new Button();
+            signoIgual = new Button();
+            division = new Button();
+            suma = new Button();
+            resta = new Button();
+            multiplicacion = new Button();
+            btnBorrar = new Button();
+            btnPunto = new Button();
+            btnLimpiar = new Button();
             SuspendLayout();
             // 
             // tbDisplay
@@ -58,104 +58,104 @@
             tbDisplay.TabIndex = 0;
             tbDisplay.TextChanged += textBox1_TextChanged;
             // 
-            // button1
+            // btnN8
             // 
-            button1.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(84, 79);
-            button1.Name = "button1";
-            button1.Size = new Size(66, 48);
-            button1.TabIndex = 1;
-            button1.Text = "8";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnN8.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnN8.Location = new Point(84, 79);
+            btnN8.Name = "btnN8";
+            btnN8.Size = new Size(66, 48);
+            btnN8.TabIndex = 1;
+            btnN8.Text = "8";
+            btnN8.UseVisualStyleBackColor = true;
+            btnN8.Click += button1_Click;
             // 
-            // button2
+            // btnN7
             // 
-            button2.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(12, 79);
-            button2.Name = "button2";
-            button2.Size = new Size(66, 48);
-            button2.TabIndex = 2;
-            button2.Text = "7";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            btnN7.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnN7.Location = new Point(12, 79);
+            btnN7.Name = "btnN7";
+            btnN7.Size = new Size(66, 48);
+            btnN7.TabIndex = 2;
+            btnN7.Text = "7";
+            btnN7.UseVisualStyleBackColor = true;
+            btnN7.Click += button2_Click;
             // 
-            // button3
+            // btnN9
             // 
-            button3.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.Location = new Point(156, 78);
-            button3.Name = "button3";
-            button3.Size = new Size(66, 49);
-            button3.TabIndex = 3;
-            button3.Text = "9";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            btnN9.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnN9.Location = new Point(156, 78);
+            btnN9.Name = "btnN9";
+            btnN9.Size = new Size(66, 49);
+            btnN9.TabIndex = 3;
+            btnN9.Text = "9";
+            btnN9.UseVisualStyleBackColor = true;
+            btnN9.Click += button3_Click;
             // 
-            // button4
+            // btnN4
             // 
-            button4.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.Location = new Point(12, 131);
-            button4.Name = "button4";
-            button4.Size = new Size(66, 48);
-            button4.TabIndex = 4;
-            button4.Text = "4";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
+            btnN4.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnN4.Location = new Point(12, 131);
+            btnN4.Name = "btnN4";
+            btnN4.Size = new Size(66, 48);
+            btnN4.TabIndex = 4;
+            btnN4.Text = "4";
+            btnN4.UseVisualStyleBackColor = true;
+            btnN4.Click += button4_Click;
             // 
-            // button5
+            // btnN5
             // 
-            button5.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button5.Location = new Point(84, 131);
-            button5.Name = "button5";
-            button5.Size = new Size(66, 48);
-            button5.TabIndex = 5;
-            button5.Text = "5";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
+            btnN5.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnN5.Location = new Point(84, 131);
+            btnN5.Name = "btnN5";
+            btnN5.Size = new Size(66, 48);
+            btnN5.TabIndex = 5;
+            btnN5.Text = "5";
+            btnN5.UseVisualStyleBackColor = true;
+            btnN5.Click += button5_Click;
             // 
-            // button6
+            // btnN6
             // 
-            button6.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button6.Location = new Point(156, 131);
-            button6.Name = "button6";
-            button6.Size = new Size(66, 48);
-            button6.TabIndex = 6;
-            button6.Text = "6";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click;
+            btnN6.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnN6.Location = new Point(156, 131);
+            btnN6.Name = "btnN6";
+            btnN6.Size = new Size(66, 48);
+            btnN6.TabIndex = 6;
+            btnN6.Text = "6";
+            btnN6.UseVisualStyleBackColor = true;
+            btnN6.Click += button6_Click;
             // 
-            // button7
+            // btnN1
             // 
-            button7.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button7.Location = new Point(12, 181);
-            button7.Name = "button7";
-            button7.Size = new Size(66, 48);
-            button7.TabIndex = 7;
-            button7.Text = "1";
-            button7.UseVisualStyleBackColor = true;
-            button7.Click += button7_Click;
+            btnN1.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnN1.Location = new Point(12, 181);
+            btnN1.Name = "btnN1";
+            btnN1.Size = new Size(66, 48);
+            btnN1.TabIndex = 7;
+            btnN1.Text = "1";
+            btnN1.UseVisualStyleBackColor = true;
+            btnN1.Click += button7_Click;
             // 
-            // button8
+            // btnN2
             // 
-            button8.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button8.Location = new Point(84, 181);
-            button8.Name = "button8";
-            button8.Size = new Size(66, 48);
-            button8.TabIndex = 8;
-            button8.Text = "2";
-            button8.UseVisualStyleBackColor = true;
-            button8.Click += button8_Click;
+            btnN2.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnN2.Location = new Point(84, 181);
+            btnN2.Name = "btnN2";
+            btnN2.Size = new Size(66, 48);
+            btnN2.TabIndex = 8;
+            btnN2.Text = "2";
+            btnN2.UseVisualStyleBackColor = true;
+            btnN2.Click += button8_Click;
             // 
-            // button9
+            // btnN3
             // 
-            button9.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button9.Location = new Point(156, 181);
-            button9.Name = "button9";
-            button9.Size = new Size(66, 48);
-            button9.TabIndex = 9;
-            button9.Text = "3";
-            button9.UseVisualStyleBackColor = true;
-            button9.Click += button9_Click;
+            btnN3.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnN3.Location = new Point(156, 181);
+            btnN3.Name = "btnN3";
+            btnN3.Size = new Size(66, 48);
+            btnN3.TabIndex = 9;
+            btnN3.Text = "3";
+            btnN3.UseVisualStyleBackColor = true;
+            btnN3.Click += button9_Click;
             // 
             // button10
             // 
@@ -168,118 +168,119 @@
             button10.UseVisualStyleBackColor = true;
             button10.Click += button10_Click;
             // 
-            // button11
+            // signoIgual
             // 
-            button11.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button11.Location = new Point(156, 235);
-            button11.Name = "button11";
-            button11.Size = new Size(66, 48);
-            button11.TabIndex = 11;
-            button11.Text = "=";
-            button11.UseVisualStyleBackColor = true;
-            button11.Click += button11_Click;
+            signoIgual.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            signoIgual.Location = new Point(156, 235);
+            signoIgual.Name = "signoIgual";
+            signoIgual.Size = new Size(66, 48);
+            signoIgual.TabIndex = 11;
+            signoIgual.Text = "=";
+            signoIgual.UseVisualStyleBackColor = true;
+            signoIgual.Click += button11_Click;
             // 
-            // button12
+            // division
             // 
-            button12.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button12.Location = new Point(228, 235);
-            button12.Name = "button12";
-            button12.Size = new Size(47, 48);
-            button12.TabIndex = 12;
-            button12.Text = "/";
-            button12.UseVisualStyleBackColor = true;
-            button12.Click += button12_Click;
+            division.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            division.Location = new Point(228, 235);
+            division.Name = "division";
+            division.Size = new Size(47, 48);
+            division.TabIndex = 12;
+            division.Text = "/";
+            division.UseVisualStyleBackColor = true;
+            division.Click += button12_Click;
             // 
-            // button13
+            // suma
             // 
-            button13.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button13.Location = new Point(228, 78);
-            button13.Name = "button13";
-            button13.Size = new Size(47, 48);
-            button13.TabIndex = 13;
-            button13.Text = "+";
-            button13.UseVisualStyleBackColor = true;
-            button13.Click += button13_Click;
+            suma.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            suma.Location = new Point(228, 78);
+            suma.Name = "suma";
+            suma.Size = new Size(47, 48);
+            suma.TabIndex = 13;
+            suma.Text = "+";
+            suma.UseVisualStyleBackColor = true;
+            suma.Click += button13_Click;
             // 
-            // button14
+            // resta
             // 
-            button14.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button14.Location = new Point(228, 131);
-            button14.Name = "button14";
-            button14.Size = new Size(47, 48);
-            button14.TabIndex = 14;
-            button14.Text = "-";
-            button14.UseVisualStyleBackColor = true;
-            button14.Click += button14_Click;
+            resta.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            resta.Location = new Point(228, 131);
+            resta.Name = "resta";
+            resta.Size = new Size(47, 48);
+            resta.TabIndex = 14;
+            resta.Text = "-";
+            resta.UseVisualStyleBackColor = true;
+            resta.Click += button14_Click;
             // 
-            // button15
+            // multiplicacion
             // 
-            button15.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button15.Location = new Point(228, 181);
-            button15.Name = "button15";
-            button15.Size = new Size(47, 48);
-            button15.TabIndex = 15;
-            button15.Text = "x";
-            button15.UseVisualStyleBackColor = true;
-            button15.Click += button15_Click;
+            multiplicacion.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            multiplicacion.Location = new Point(228, 181);
+            multiplicacion.Name = "multiplicacion";
+            multiplicacion.Size = new Size(47, 48);
+            multiplicacion.TabIndex = 15;
+            multiplicacion.Text = "x";
+            multiplicacion.UseVisualStyleBackColor = true;
+            multiplicacion.Click += button15_Click;
             // 
-            // button16
+            // btnBorrar
             // 
-            button16.Font = new Font("Lucida Sans", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button16.Location = new Point(12, 318);
-            button16.Name = "button16";
-            button16.Size = new Size(263, 26);
-            button16.TabIndex = 16;
-            button16.Text = "BORRAR";
-            button16.UseVisualStyleBackColor = true;
-            button16.Click += button16_Click;
+            btnBorrar.Font = new Font("Lucida Sans", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnBorrar.Location = new Point(12, 318);
+            btnBorrar.Name = "btnBorrar";
+            btnBorrar.Size = new Size(263, 26);
+            btnBorrar.TabIndex = 16;
+            btnBorrar.Text = "BORRAR";
+            btnBorrar.UseVisualStyleBackColor = true;
+            btnBorrar.Click += button16_Click;
             // 
-            // button17
+            // btnPunto
             // 
-            button17.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button17.Location = new Point(84, 235);
-            button17.Name = "button17";
-            button17.Size = new Size(66, 48);
-            button17.TabIndex = 17;
-            button17.Text = ".";
-            button17.TextAlign = ContentAlignment.TopCenter;
-            button17.UseVisualStyleBackColor = true;
-            button17.Click += button17_Click;
+            btnPunto.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnPunto.Location = new Point(84, 235);
+            btnPunto.Name = "btnPunto";
+            btnPunto.Size = new Size(66, 48);
+            btnPunto.TabIndex = 17;
+            btnPunto.Text = ".";
+            btnPunto.TextAlign = ContentAlignment.TopCenter;
+            btnPunto.UseVisualStyleBackColor = true;
+            btnPunto.Click += button17_Click;
             // 
-            // button18
+            // btnLimpiar
             // 
-            button18.Font = new Font("Lucida Sans", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button18.Location = new Point(13, 286);
-            button18.Name = "button18";
-            button18.Size = new Size(263, 26);
-            button18.TabIndex = 18;
-            button18.Text = "LIMPIAR";
-            button18.UseVisualStyleBackColor = true;
-            button18.Click += button18_Click;
+            btnLimpiar.Font = new Font("Lucida Sans", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnLimpiar.Location = new Point(13, 286);
+            btnLimpiar.Name = "btnLimpiar";
+            btnLimpiar.Size = new Size(263, 26);
+            btnLimpiar.TabIndex = 18;
+            btnLimpiar.Text = "LIMPIAR";
+            btnLimpiar.UseVisualStyleBackColor = true;
+            
+
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(288, 357);
-            Controls.Add(button18);
-            Controls.Add(button17);
-            Controls.Add(button16);
-            Controls.Add(button15);
-            Controls.Add(button14);
-            Controls.Add(button13);
-            Controls.Add(button12);
-            Controls.Add(button11);
+            Controls.Add(btnLimpiar);
+            Controls.Add(btnPunto);
+            Controls.Add(btnBorrar);
+            Controls.Add(multiplicacion);
+            Controls.Add(resta);
+            Controls.Add(suma);
+            Controls.Add(division);
+            Controls.Add(signoIgual);
             Controls.Add(button10);
-            Controls.Add(button9);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(btnN3);
+            Controls.Add(btnN2);
+            Controls.Add(btnN1);
+            Controls.Add(btnN6);
+            Controls.Add(btnN5);
+            Controls.Add(btnN4);
+            Controls.Add(btnN9);
+            Controls.Add(btnN7);
+            Controls.Add(btnN8);
             Controls.Add(tbDisplay);
             Name = "Form1";
             Text = "Form1";
@@ -291,23 +292,23 @@
         #endregion
 
         private TextBox tbDisplay;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
+        private Button btnN8;
+        private Button btnN7;
+        private Button btnN9;
+        private Button btnN4;
+        private Button btnN5;
+        private Button btnN6;
+        private Button btnN1;
+        private Button btnN2;
+        private Button btnN3;
         private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
-        private Button button17;
-        private Button button18;
+        private Button signoIgual;
+        private Button division;
+        private Button suma;
+        private Button resta;
+        private Button multiplicacion;
+        private Button btnBorrar;
+        private Button btnPunto;
+        private Button btnLimpiar;
     }
 }

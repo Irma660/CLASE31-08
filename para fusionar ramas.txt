@@ -1,0 +1,20 @@
+-------------------------CÓDIGO PARA FUSIONAR RAMAS-----------------------------
+
+Alumno@DESKTOP-7LDGQBD MINGW64 ~/Desktop/CLASE31-08/CLASE31-08 (primera)
+$ git checkout main
+Switched to a new branch 'main'
+branch 'main' set up to track 'origin/main'.
+
+Alumno@DESKTOP-7LDGQBD MINGW64 ~/Desktop/CLASE31-08/CLASE31-08 (main)
+$ git merge primera
+Updating f40dca5..ebccdb3
+Fast-forward
+ estudiar.txt | 71 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 71 insertions(+)
+ create mode 100644 estudiar.txt
+
+Alumno@DESKTOP-7LDGQBD MINGW64 ~/Desktop/CLASE31-08/CLASE31-08 (main)
+$ git push origin main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Irma660/CLASE31-08.git
+   f40dca5..ebccdb3  main -> main

@@ -58,6 +58,9 @@ namespace CALCULADORA_C_
                 case 2:
                     resultado = valor1 - valor2;
                     break;
+                case 3:
+                    resultado = valor1 * valor2;
+                    break;
             }
 
             tbDisplay.Text = resultado.ToString();
@@ -108,6 +111,9 @@ namespace CALCULADORA_C_
         private void button15_Click(object sender, EventArgs e)
         {
             //signo multiplicación
+            operacion = 3;
+            valor1 = Convert.ToDouble(tbDisplay.Text);
+            tbDisplay.Text = "";
         }
 
         private void button8_Click(object sender, EventArgs e)

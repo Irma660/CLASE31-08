@@ -8,6 +8,7 @@ namespace CALCULADORA_C_
         private double valor2;
 
         private double resultado;
+        private int operacion;
         public Form1()
         {
             InitializeComponent();
@@ -25,7 +26,7 @@ namespace CALCULADORA_C_
 
         private void button5_Click(object sender, EventArgs e)
         {
-            //suma
+            //número 5
             tbDisplay.Text = tbDisplay.Text + "5";
         }
 
@@ -38,6 +39,7 @@ namespace CALCULADORA_C_
         private void button13_Click(object sender, EventArgs e)
         {
             //signo sumar
+            operacion = 1;
             valor1 = Convert.ToDouble(tbDisplay.Text);
             tbDisplay.Text = "";
         }
@@ -48,6 +50,15 @@ namespace CALCULADORA_C_
             valor2 = Convert.ToDouble(tbDisplay.Text);
 
             resultado = valor1 + valor2;
+            switch (operacion)
+            {
+                case 1:
+                    resultado = valor1 + valor2;
+                    break;
+                case 2:
+                    resultado = valor1 - valor2;
+                    break;
+            }
 
             tbDisplay.Text = resultado.ToString();
 
@@ -89,6 +100,9 @@ namespace CALCULADORA_C_
         private void button14_Click(object sender, EventArgs e)
         {
             //signo resta
+            operacion = 2;
+            valor1 = Convert.ToDouble(tbDisplay.Text);
+            tbDisplay.Text = "";
         }
 
         private void button15_Click(object sender, EventArgs e)

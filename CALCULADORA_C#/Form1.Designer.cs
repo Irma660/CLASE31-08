@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            tbDisplay = new TextBox();
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
@@ -45,16 +45,18 @@
             button14 = new Button();
             button15 = new Button();
             button16 = new Button();
+            button17 = new Button();
+            button18 = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // tbDisplay
             // 
-            textBox1.Location = new Point(12, 24);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(263, 40);
-            textBox1.TabIndex = 0;
-            textBox1.TextChanged += textBox1_TextChanged;
+            tbDisplay.Location = new Point(12, 24);
+            tbDisplay.Multiline = true;
+            tbDisplay.Name = "tbDisplay";
+            tbDisplay.Size = new Size(263, 40);
+            tbDisplay.TabIndex = 0;
+            tbDisplay.TextChanged += textBox1_TextChanged;
             // 
             // button1
             // 
@@ -76,6 +78,7 @@
             button2.TabIndex = 2;
             button2.Text = "7";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -86,6 +89,7 @@
             button3.TabIndex = 3;
             button3.Text = "9";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -167,9 +171,9 @@
             // button11
             // 
             button11.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button11.Location = new Point(84, 235);
+            button11.Location = new Point(156, 235);
             button11.Name = "button11";
-            button11.Size = new Size(110, 48);
+            button11.Size = new Size(66, 48);
             button11.TabIndex = 11;
             button11.Text = "=";
             button11.UseVisualStyleBackColor = true;
@@ -178,12 +182,13 @@
             // button12
             // 
             button12.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button12.Location = new Point(200, 235);
+            button12.Location = new Point(228, 235);
             button12.Name = "button12";
-            button12.Size = new Size(75, 48);
+            button12.Size = new Size(47, 48);
             button12.TabIndex = 12;
             button12.Text = "/";
             button12.UseVisualStyleBackColor = true;
+            button12.Click += button12_Click;
             // 
             // button13
             // 
@@ -221,18 +226,44 @@
             // button16
             // 
             button16.Font = new Font("Lucida Sans", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button16.Location = new Point(12, 289);
+            button16.Location = new Point(12, 318);
             button16.Name = "button16";
             button16.Size = new Size(263, 26);
             button16.TabIndex = 16;
             button16.Text = "BORRAR";
             button16.UseVisualStyleBackColor = true;
+            button16.Click += button16_Click;
+            // 
+            // button17
+            // 
+            button17.Font = new Font("Lucida Sans", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button17.Location = new Point(84, 235);
+            button17.Name = "button17";
+            button17.Size = new Size(66, 48);
+            button17.TabIndex = 17;
+            button17.Text = ".";
+            button17.TextAlign = ContentAlignment.TopCenter;
+            button17.UseVisualStyleBackColor = true;
+            button17.Click += button17_Click;
+            // 
+            // button18
+            // 
+            button18.Font = new Font("Lucida Sans", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button18.Location = new Point(13, 286);
+            button18.Name = "button18";
+            button18.Size = new Size(263, 26);
+            button18.TabIndex = 18;
+            button18.Text = "LIMPIAR";
+            button18.UseVisualStyleBackColor = true;
+            button18.Click += button18_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(288, 330);
+            ClientSize = new Size(288, 357);
+            Controls.Add(button18);
+            Controls.Add(button17);
             Controls.Add(button16);
             Controls.Add(button15);
             Controls.Add(button14);
@@ -249,7 +280,7 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(textBox1);
+            Controls.Add(tbDisplay);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -259,7 +290,7 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox tbDisplay;
         private Button button1;
         private Button button2;
         private Button button3;
@@ -276,5 +307,7 @@
         private Button button14;
         private Button button15;
         private Button button16;
+        private Button button17;
+        private Button button18;
     }
 }

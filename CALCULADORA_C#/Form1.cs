@@ -154,13 +154,13 @@ namespace CALCULADORA_C_
         private void button17_Click(object sender, EventArgs e)
         {
             //signoPunto
-            tbDisplay.Text = ".";
+            tbDisplay.Text = tbDisplay.Text + ".";
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             //boton limpiar
-            tbDisplay.Text = "";
+            tbDisplay.Text = " ";
 
         }
     }

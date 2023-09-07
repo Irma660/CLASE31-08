@@ -112,7 +112,7 @@ namespace CALCULADORA_C_
             //signo multiplicación
             operacion = 3;
             valor1 = Convert.ToDouble(tbDisplay.Text);
-            tbDisplay.Text = "x";
+            tbDisplay.Text = "*";
         }
 
         private void button8_Click(object sender, EventArgs e)

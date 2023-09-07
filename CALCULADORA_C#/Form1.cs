@@ -139,7 +139,7 @@ namespace CALCULADORA_C_
             valor1 = 0;
             valor2 = 0;
             operacion = '\0';
-            tbDisplay.Text = "0"; 
+            tbDisplay.Text = "0";
         }
 
         private void button12_Click(object sender, EventArgs e)
@@ -171,7 +171,7 @@ namespace CALCULADORA_C_
 
         private void btnLimpiar_Click_1(object sender, EventArgs e)
         {
-            tbDisplay.Text = "0"; 
+            tbDisplay.Text = " ";
         }
     }
 }

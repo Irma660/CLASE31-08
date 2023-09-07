@@ -59,6 +59,7 @@
             tbDisplay.RightToLeft = RightToLeft.Yes;
             tbDisplay.Size = new Size(263, 40);
             tbDisplay.TabIndex = 0;
+            tbDisplay.TextAlign = HorizontalAlignment.Right;
             tbDisplay.TextChanged += textBox1_TextChanged;
             // 
             // btnN8

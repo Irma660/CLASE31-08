@@ -3,10 +3,16 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
-    <RootNamespace>CALCULADORA_C_</RootNamespace>
+    <RootNamespace>CALCULADORA</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Calculator_30001.ico</ApplicationIcon>
+    <AssemblyName>CALCULADORA</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Calculator_30001.ico" />
+  </ItemGroup>
 
 </Project>

@@ -41,7 +41,7 @@ namespace CALCULADORA_C_
             //signo sumar
             operacion = 1;
             valor1 = Convert.ToDouble(tbDisplay.Text);
-            tbDisplay.Text = "";
+            tbDisplay.Text = "+";
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -104,7 +104,7 @@ namespace CALCULADORA_C_
             //signo resta
             operacion = 2;
             valor1 = Convert.ToDouble(tbDisplay.Text);
-            tbDisplay.Text = "";
+            tbDisplay.Text = "-";
         }
 
         private void button15_Click(object sender, EventArgs e)
@@ -112,7 +112,7 @@ namespace CALCULADORA_C_
             //signo multiplicación
             operacion = 3;
             valor1 = Convert.ToDouble(tbDisplay.Text);
-            tbDisplay.Text = "";
+            tbDisplay.Text = "x";
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -147,7 +147,7 @@ namespace CALCULADORA_C_
             //signo división
             operacion = 4;
             valor1 = Convert.ToDouble(tbDisplay.Text);
-            tbDisplay.Text = "";
+            tbDisplay.Text = "/";
 
         }
 

@@ -1,8 +1,5 @@
 C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\bin\Debug\net6.0-windows\CALCULADORA_C#.exe
-C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\bin\Debug\net6.0-windows\CALCULADORA_C#.deps.json
-C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\bin\Debug\net6.0-windows\CALCULADORA_C#.runtimeconfig.json
 C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\bin\Debug\net6.0-windows\CALCULADORA_C#.dll
-C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\bin\Debug\net6.0-windows\CALCULADORA_C#.pdb
 C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\obj\Debug\net6.0-windows\CALCULADORA_C#.csproj.AssemblyReference.cache
 C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\obj\Debug\net6.0-windows\CALCULADORA_C_.Form1.resources
 C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\obj\Debug\net6.0-windows\CALCULADORA_C#.csproj.GenerateResource.cache
@@ -10,8 +7,13 @@ C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\obj\Debug\net6.0-wi
 C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\obj\Debug\net6.0-windows\CALCULADORA_C#.AssemblyInfoInputs.cache
 C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\obj\Debug\net6.0-windows\CALCULADORA_C#.AssemblyInfo.cs
 C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\obj\Debug\net6.0-windows\CALCULADORA_C#.csproj.CoreCompileInputs.cache
-C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\obj\Debug\net6.0-windows\CALCULADORA_C#.dll
-C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\obj\Debug\net6.0-windows\refint\CALCULADORA_C#.dll
-C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\obj\Debug\net6.0-windows\CALCULADORA_C#.pdb
 C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\obj\Debug\net6.0-windows\CALCULADORA_C#.genruntimeconfig.cache
-C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\obj\Debug\net6.0-windows\ref\CALCULADORA_C#.dll
+C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\bin\Debug\net6.0-windows\CALCULADORA.exe
+C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\bin\Debug\net6.0-windows\CALCULADORA.deps.json
+C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\bin\Debug\net6.0-windows\CALCULADORA.runtimeconfig.json
+C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\bin\Debug\net6.0-windows\CALCULADORA.dll
+C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\bin\Debug\net6.0-windows\CALCULADORA.pdb
+C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\obj\Debug\net6.0-windows\CALCULADORA.dll
+C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\obj\Debug\net6.0-windows\refint\CALCULADORA.dll
+C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\obj\Debug\net6.0-windows\CALCULADORA.pdb
+C:\Users\Alumno\Desktop\CLASE31-08\CLASE31-08\CALCULADORA_C#\obj\Debug\net6.0-windows\ref\CALCULADORA.dll
